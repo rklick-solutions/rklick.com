@@ -1,0 +1,104 @@
+@(page: String)
+
+<!--=== Header ===-->
+<div class="header header-sticky">
+    <div class="container">
+        <!-- Logo -->
+        <a class="logo" href="/">
+            <img src="@routes.Assets.versioned("images/new-logo-black-39.png")" alt="Logo">
+        </a>
+        <!-- End Logo -->
+
+        <!-- Topbar -->
+        <div class="topbar">
+            <ul class="loginbar pull-right">
+                <li class="hoverSelector">
+                    <i class="fa fa-globe"></i>
+                    <a>Languages</a>
+                    <ul class="languages hoverSelectorBlock">
+                        <li class="active">
+                            <a href="#">English <i class="fa fa-check"></i></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="topbar-devider"></li>
+                <li><a href="page_faq.html">Help</a></li>
+            </ul>
+        </div>
+        <!-- End Topbar -->
+
+        <!-- Toggle get grouped for better mobile display -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+        </button>
+        <!-- End Toggle -->
+    </div><!--/end container-->
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <!-- Home -->
+                <li><a href="/">Home</a></li>
+                <!-- End Home -->
+
+                <!-- Product -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">r3 Platform</a></li>
+                        <li><a href="page_home8.html">BoasterMe</a></li>
+                        <li><a href="page_home14.html">Ora</a></li>
+                        <li><a href="page_home9.html">VideoFy</a></li>
+                    </ul>
+                </li>
+                <!-- End Product -->
+
+                <!-- Services -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="page_invoice.html">Expert Support</a></li>
+                        <li><a href="page_clients.html">Training</a></li>
+                        <li><a href="page_3_columns.html">Consulting</a></li>
+                    </ul>
+                </li>
+                <!-- End Services -->
+
+                <!-- Community -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Community
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog_masonry_3col.html">Blog</a></li>
+                        <li><a href="blog_masonry_3col.html">Projects</a></li>
+                        <li><a href="blog_timeline.html">Activator Templates</a></li>
+                    </ul>
+                </li>
+                <!-- End Community -->
+
+                <!-- Company -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        Company
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog_masonry_3col.html">About Us</a></li>
+                        <li><a href="blog_masonry_3col.html">Our Team</a></li>
+                        <li><a href="blog_timeline.html">Careers</a></li>
+                        <li><a href="blog_timeline.html">Contact Us</a></li>
+                    </ul>
+                </li>
+                <!-- End Company -->
+
+            </ul>
+        </div><!--/end container-->
+    </div><!--/navbar-collapse-->
+</div>
+<!--=== End Header ===-->
