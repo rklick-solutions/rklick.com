@@ -463,7 +463,8 @@ a.read-more:hover {
 ------------------------------------*/
 /* Main Parallax Sldier */
 .da-slide h2 i {
-	background-color: rgba(52, 152, 219, 0.8);
+	/*background-color: rgba(52, 152, 219, 0.8);*/
+	background-color : rgba(79, 80, 81, 0.07);
 }
 
 /* Sequence Parallax Sldier */
