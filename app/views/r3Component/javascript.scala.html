@@ -1,0 +1,36 @@
+@(page: String)
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/jquery/jquery.min.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/jquery/jquery-migrate.min.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/bootstrap/js/bootstrap.min.js")"></script>
+
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/back-to-top.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/smoothScroll.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/parallax-slider/js/modernizr.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/parallax-slider/js/jquery.cslider.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/plugins/owl-carousel/owl-carousel/owl.carousel.js")"></script>
+
+<!-- JS Customization -->
+<script type="text/javascript" src="@routes.Assets.versioned("unify/js/custom.js")"></script>
+
+<!-- JS Page Level -->
+<script type="text/javascript" src="@routes.Assets.versioned("unify/js/app.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/js/plugins/owl-carousel.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/js/plugins/style-switcher.js")"></script>
+<script type="text/javascript" src="@routes.Assets.versioned("unify/js/plugins/parallax-slider.js")"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		App.init();
+		OwlCarousel.initOwlCarousel();
+		StyleSwitcher.initStyleSwitcher();
+		ParallaxSlider.initParallaxSlider();
+	});
+</script>
+
+<!--[if lt IE 9]>
+<script src="@routes.Assets.versioned("unify/plugins/respond.js")"></script>
+<script src="@routes.Assets.versioned("unify/plugins/html5shiv.js")"></script>
+<script src="@routes.Assets.versioned("unify/plugins/placeholder-IE-fixes.js")"></script>
+<![endif]-->

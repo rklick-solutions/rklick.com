@@ -4,6 +4,17 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
+
+GET     /abc                         controllers.ProductsController.r3
+
+GET     /xyz                         controllers.ProductsController.boaster
+GET     /mnp                         controllers.ProductsController.ora
+GET     /jkl                         controllers.ProductsController.video
+GET     /mno                         controllers.ServiceController.support
+GET     /pqr                         controllers.ServiceController.training
+GET     /rst                         controllers.ServiceController.consulting
+
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
