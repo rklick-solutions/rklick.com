@@ -13,6 +13,15 @@ GET     /jkl                         controllers.ProductsController.video
 GET     /mno                         controllers.ServiceController.support
 GET     /pqr                         controllers.ServiceController.training
 GET     /rst                         controllers.ServiceController.consulting
+GET     /bg                          controllers.CommunityController.blog
+GET     /pg                          controllers.CommunityController.projects
+GET     /tp                          controllers.CommunityController.templates
+GET     /ab                         controllers.CompanyController.aboutUs
+GET     /ot                          controllers.CompanyController.ourTeam
+GET     /cr                          controllers.CompanyController.careers
+GET     /ct                          controllers.CompanyController.contactUs
+
+
 
 
 # An example controller showing how to use dependency injection
